@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "intent": "Follow up after a discovery meeting",
+    "tone": "formal",
+    "key_facts": [
+      "Thank the client for meeting on Tuesday",
+      "Share that the proposal will be sent by Friday",
+      "Request infrastructure diagrams to tailor the solution"
+    ],
+    "reference_email": "Subject: Follow-Up and Next Steps\n\nDear Ms. Patel,\n\nThank you for taking the time to meet with us on Tuesday. We appreciated the opportunity to learn more about your requirements and priorities.\n\nAs discussed, we will send the proposal by Friday for your review. To help us tailor the solution appropriately, could you please share the relevant infrastructure diagrams at your convenience?\n\nWe look forward to continuing the conversation.\n\nBest regards,\nSamarth"
+  },
+  {
+    "id": 2,
+    "intent": "Request proposal details from a vendor",
+    "tone": "formal",
+    "key_facts": [
+      "Need pricing for implementation and annual support",
+      "Need timeline for deployment across three regions",
+      "Need confirmation of security certifications"
+    ],
+    "reference_email": "Subject: Request for Proposal Details\n\nDear Vendor Team,\n\nI hope you are doing well. As we evaluate potential partners, we would appreciate additional details to support our review.\n\nPlease share pricing for both implementation and annual support, the estimated deployment timeline across three regions, and confirmation of your current security certifications.\n\nThank you in advance for your response.\n\nSincerely,\nSamarth"
+  },
+  {
+    "id": 3,
+    "intent": "Apologize for a delayed response to an internal stakeholder",
+    "tone": "empathetic",
+    "key_facts": [
+      "Delay was caused by an unexpected production issue",
+      "The updated dashboard will be shared tomorrow morning",
+      "Offer to walk through the changes live"
+    ],
+    "reference_email": "Subject: Apology for the Delay\n\nHi Jordan,\n\nI’m sorry for the delay in getting back to you. We had to prioritize an unexpected production issue, which affected our response time.\n\nThe updated dashboard will be shared tomorrow morning. If helpful, I would be glad to walk you through the changes live and answer any questions.\n\nThank you for your patience and understanding.\n\nBest,\nSamarth"
+  },
+  {
+    "id": 4,
+    "intent": "Ask a hiring manager to reschedule an interview",
+    "tone": "polite",
+    "key_facts": [
+      "Current interview is scheduled for Wednesday at 2 PM",
+      "A medical appointment overlaps unexpectedly",
+      "Available Thursday after 11 AM or Friday anytime"
+    ],
+    "reference_email": "Subject: Request to Reschedule Interview\n\nDear Hiring Manager,\n\nI hope you are well. I am writing to ask whether we could reschedule my interview currently set for Wednesday at 2 PM, as an unexpected medical appointment now overlaps with that time.\n\nI remain very interested in the opportunity and would be available on Thursday after 11 AM or anytime on Friday.\n\nThank you for your understanding.\n\nKind regards,\nSamarth"
+  },
+  {
+    "id": 5,
+    "intent": "Send an urgent request for approval before a release",
+    "tone": "urgent",
+    "key_facts": [
+      "Release window opens at 8 PM tonight",
+      "Security sign-off is still pending",
+      "Approval is needed by 5 PM to avoid delay"
+    ],
+    "reference_email": "Subject: Urgent: Approval Needed for Tonight’s Release\n\nHi Team,\n\nWe are approaching the release window, which opens at 8 PM tonight. At the moment, the required security sign-off is still pending.\n\nTo avoid delaying the release, we need approval by 5 PM today. Please let us know as soon as possible if there are any outstanding concerns.\n\nThanks for your prompt attention.\n\nBest,\nSamarth"
+  },
+  {
+    "id": 6,
+    "intent": "Thank a mentor after receiving career advice",
+    "tone": "warm",
+    "key_facts": [
+      "Advice on leadership transitions was valuable",
+      "Will apply the feedback in the next quarter planning cycle",
+      "Would like to stay in touch"
+    ],
+    "reference_email": "Subject: Thank You for Your Guidance\n\nHi Priya,\n\nThank you for taking the time to share your advice. Your perspective on leadership transitions was especially valuable and gave me a lot to reflect on.\n\nI plan to apply your feedback during the next quarter planning cycle, and I would love to stay in touch moving forward.\n\nWith appreciation,\nSamarth"
+  },
+  {
+    "id": 7,
+    "intent": "Confirm project kickoff with a client",
+    "tone": "professional",
+    "key_facts": [
+      "Kickoff is scheduled for May 3 at 10 AM EST",
+      "Attendees include engineering and product leads",
+      "Agenda will be shared one day in advance"
+    ],
+    "reference_email": "Subject: Project Kickoff Confirmation\n\nDear Client Team,\n\nThis email is to confirm that our project kickoff is scheduled for May 3 at 10 AM EST. The session will include both engineering and product leads from our side.\n\nWe will share the agenda one day in advance so everyone has time to review it beforehand.\n\nWe look forward to a productive start.\n\nBest regards,\nSamarth"
+  },
+  {
+    "id": 8,
+    "intent": "Decline a partnership opportunity respectfully",
+    "tone": "respectful",
+    "key_facts": [
+      "Current roadmap capacity is fully allocated",
+      "Not the right time to take on new partnership work",
+      "Open to reconnecting in six months"
+    ],
+    "reference_email": "Subject: Partnership Opportunity\n\nDear Alex,\n\nThank you for considering us for this partnership opportunity. After reviewing our current priorities, we have concluded that our roadmap capacity is fully allocated at this time.\n\nAs a result, this is not the right time for us to take on new partnership work. That said, we would be happy to reconnect in six months if the opportunity is still open.\n\nThank you again for reaching out.\n\nSincerely,\nSamarth"
+  },
+  {
+    "id": 9,
+    "intent": "Request missing documents from a customer",
+    "tone": "clear",
+    "key_facts": [
+      "Still missing proof of address and tax ID",
+      "Documents are needed to complete verification",
+      "Deadline is Monday to avoid onboarding delay"
+    ],
+    "reference_email": "Subject: Documents Required to Complete Verification\n\nHello,\n\nWe are following up because we are still missing your proof of address and tax ID. These documents are required to complete the verification process.\n\nPlease send them by Monday to avoid any delay in onboarding. If you have any questions, we would be glad to help.\n\nRegards,\nSamarth"
+  },
+  {
+    "id": 10,
+    "intent": "Inform a team about a completed milestone",
+    "tone": "celebratory",
+    "key_facts": [
+      "Phase 1 migration finished two days ahead of schedule",
+      "No critical defects were reported",
+      "Team celebration is planned for Friday afternoon"
+    ],
+    "reference_email": "Subject: Phase 1 Milestone Completed\n\nHi Team,\n\nI’m happy to share that Phase 1 of the migration finished two days ahead of schedule. Even better, no critical defects were reported during this phase.\n\nThank you all for the excellent work. We’re planning a team celebration for Friday afternoon and hope everyone can join.\n\nBest,\nSamarth"
+  }
+]

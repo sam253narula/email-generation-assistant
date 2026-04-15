@@ -1,0 +1,21 @@
+scenario_id,model,intent,tone,fact_coverage_score,tone_alignment_score,structure_fluency_score,overall_score
+1,advanced_prompt,Follow up after a discovery meeting,formal,1.0,0.5,0.85,0.783
+1,baseline_prompt,Follow up after a discovery meeting,formal,0.667,0.0,0.6,0.422
+2,advanced_prompt,Request proposal details from a vendor,formal,1.0,0.5,0.85,0.783
+2,baseline_prompt,Request proposal details from a vendor,formal,0.667,0.0,0.6,0.422
+3,advanced_prompt,Apologize for a delayed response to an internal stakeholder,empathetic,1.0,0.25,0.85,0.7
+3,baseline_prompt,Apologize for a delayed response to an internal stakeholder,empathetic,0.667,0.0,0.6,0.422
+4,advanced_prompt,Ask a hiring manager to reschedule an interview,polite,1.0,0.25,0.85,0.7
+4,baseline_prompt,Ask a hiring manager to reschedule an interview,polite,0.667,0.0,0.6,0.422
+5,advanced_prompt,Send an urgent request for approval before a release,urgent,1.0,0.75,0.85,0.867
+5,baseline_prompt,Send an urgent request for approval before a release,urgent,0.667,0.25,0.6,0.506
+6,advanced_prompt,Thank a mentor after receiving career advice,warm,1.0,1.0,0.85,0.95
+6,baseline_prompt,Thank a mentor after receiving career advice,warm,0.667,0.25,0.6,0.506
+7,advanced_prompt,Confirm project kickoff with a client,professional,1.0,0.75,0.85,0.867
+7,baseline_prompt,Confirm project kickoff with a client,professional,0.667,0.25,0.6,0.506
+8,advanced_prompt,Decline a partnership opportunity respectfully,respectful,1.0,0.75,0.85,0.867
+8,baseline_prompt,Decline a partnership opportunity respectfully,respectful,0.667,0.0,0.6,0.422
+9,advanced_prompt,Request missing documents from a customer,clear,1.0,0.75,0.85,0.867
+9,baseline_prompt,Request missing documents from a customer,clear,0.667,0.0,0.6,0.422
+10,advanced_prompt,Inform a team about a completed milestone,celebratory,1.0,1.0,0.85,0.95
+10,baseline_prompt,Inform a team about a completed milestone,celebratory,0.667,0.0,0.6,0.422

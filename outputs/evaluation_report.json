@@ -1,0 +1,223 @@
+{
+  "metric_definitions": {
+    "fact_coverage_score": "Measures how many required facts are present in the generated email using token overlap against each fact. Score = covered facts / total facts.",
+    "tone_alignment_score": "Measures how well the email matches the requested tone using tone-specific lexical cues and small penalties for mismatched style.",
+    "structure_fluency_score": "Measures whether the email contains a subject line, greeting, closing, acceptable length, and paragraph structure."
+  },
+  "scenario_scores": [
+    {
+      "scenario_id": 1,
+      "model": "advanced_prompt",
+      "intent": "Follow up after a discovery meeting",
+      "tone": "formal",
+      "fact_coverage_score": 1.0,
+      "tone_alignment_score": 0.5,
+      "structure_fluency_score": 0.85,
+      "overall_score": 0.783
+    },
+    {
+      "scenario_id": 1,
+      "model": "baseline_prompt",
+      "intent": "Follow up after a discovery meeting",
+      "tone": "formal",
+      "fact_coverage_score": 0.667,
+      "tone_alignment_score": 0.0,
+      "structure_fluency_score": 0.6,
+      "overall_score": 0.422
+    },
+    {
+      "scenario_id": 2,
+      "model": "advanced_prompt",
+      "intent": "Request proposal details from a vendor",
+      "tone": "formal",
+      "fact_coverage_score": 1.0,
+      "tone_alignment_score": 0.5,
+      "structure_fluency_score": 0.85,
+      "overall_score": 0.783
+    },
+    {
+      "scenario_id": 2,
+      "model": "baseline_prompt",
+      "intent": "Request proposal details from a vendor",
+      "tone": "formal",
+      "fact_coverage_score": 0.667,
+      "tone_alignment_score": 0.0,
+      "structure_fluency_score": 0.6,
+      "overall_score": 0.422
+    },
+    {
+      "scenario_id": 3,
+      "model": "advanced_prompt",
+      "intent": "Apologize for a delayed response to an internal stakeholder",
+      "tone": "empathetic",
+      "fact_coverage_score": 1.0,
+      "tone_alignment_score": 0.25,
+      "structure_fluency_score": 0.85,
+      "overall_score": 0.7
+    },
+    {
+      "scenario_id": 3,
+      "model": "baseline_prompt",
+      "intent": "Apologize for a delayed response to an internal stakeholder",
+      "tone": "empathetic",
+      "fact_coverage_score": 0.667,
+      "tone_alignment_score": 0.0,
+      "structure_fluency_score": 0.6,
+      "overall_score": 0.422
+    },
+    {
+      "scenario_id": 4,
+      "model": "advanced_prompt",
+      "intent": "Ask a hiring manager to reschedule an interview",
+      "tone": "polite",
+      "fact_coverage_score": 1.0,
+      "tone_alignment_score": 0.25,
+      "structure_fluency_score": 0.85,
+      "overall_score": 0.7
+    },
+    {
+      "scenario_id": 4,
+      "model": "baseline_prompt",
+      "intent": "Ask a hiring manager to reschedule an interview",
+      "tone": "polite",
+      "fact_coverage_score": 0.667,
+      "tone_alignment_score": 0.0,
+      "structure_fluency_score": 0.6,
+      "overall_score": 0.422
+    },
+    {
+      "scenario_id": 5,
+      "model": "advanced_prompt",
+      "intent": "Send an urgent request for approval before a release",
+      "tone": "urgent",
+      "fact_coverage_score": 1.0,
+      "tone_alignment_score": 0.75,
+      "structure_fluency_score": 0.85,
+      "overall_score": 0.867
+    },
+    {
+      "scenario_id": 5,
+      "model": "baseline_prompt",
+      "intent": "Send an urgent request for approval before a release",
+      "tone": "urgent",
+      "fact_coverage_score": 0.667,
+      "tone_alignment_score": 0.25,
+      "structure_fluency_score": 0.6,
+      "overall_score": 0.506
+    },
+    {
+      "scenario_id": 6,
+      "model": "advanced_prompt",
+      "intent": "Thank a mentor after receiving career advice",
+      "tone": "warm",
+      "fact_coverage_score": 1.0,
+      "tone_alignment_score": 1.0,
+      "structure_fluency_score": 0.85,
+      "overall_score": 0.95
+    },
+    {
+      "scenario_id": 6,
+      "model": "baseline_prompt",
+      "intent": "Thank a mentor after receiving career advice",
+      "tone": "warm",
+      "fact_coverage_score": 0.667,
+      "tone_alignment_score": 0.25,
+      "structure_fluency_score": 0.6,
+      "overall_score": 0.506
+    },
+    {
+      "scenario_id": 7,
+      "model": "advanced_prompt",
+      "intent": "Confirm project kickoff with a client",
+      "tone": "professional",
+      "fact_coverage_score": 1.0,
+      "tone_alignment_score": 0.75,
+      "structure_fluency_score": 0.85,
+      "overall_score": 0.867
+    },
+    {
+      "scenario_id": 7,
+      "model": "baseline_prompt",
+      "intent": "Confirm project kickoff with a client",
+      "tone": "professional",
+      "fact_coverage_score": 0.667,
+      "tone_alignment_score": 0.25,
+      "structure_fluency_score": 0.6,
+      "overall_score": 0.506
+    },
+    {
+      "scenario_id": 8,
+      "model": "advanced_prompt",
+      "intent": "Decline a partnership opportunity respectfully",
+      "tone": "respectful",
+      "fact_coverage_score": 1.0,
+      "tone_alignment_score": 0.75,
+      "structure_fluency_score": 0.85,
+      "overall_score": 0.867
+    },
+    {
+      "scenario_id": 8,
+      "model": "baseline_prompt",
+      "intent": "Decline a partnership opportunity respectfully",
+      "tone": "respectful",
+      "fact_coverage_score": 0.667,
+      "tone_alignment_score": 0.0,
+      "structure_fluency_score": 0.6,
+      "overall_score": 0.422
+    },
+    {
+      "scenario_id": 9,
+      "model": "advanced_prompt",
+      "intent": "Request missing documents from a customer",
+      "tone": "clear",
+      "fact_coverage_score": 1.0,
+      "tone_alignment_score": 0.75,
+      "structure_fluency_score": 0.85,
+      "overall_score": 0.867
+    },
+    {
+      "scenario_id": 9,
+      "model": "baseline_prompt",
+      "intent": "Request missing documents from a customer",
+      "tone": "clear",
+      "fact_coverage_score": 0.667,
+      "tone_alignment_score": 0.0,
+      "structure_fluency_score": 0.6,
+      "overall_score": 0.422
+    },
+    {
+      "scenario_id": 10,
+      "model": "advanced_prompt",
+      "intent": "Inform a team about a completed milestone",
+      "tone": "celebratory",
+      "fact_coverage_score": 1.0,
+      "tone_alignment_score": 1.0,
+      "structure_fluency_score": 0.85,
+      "overall_score": 0.95
+    },
+    {
+      "scenario_id": 10,
+      "model": "baseline_prompt",
+      "intent": "Inform a team about a completed milestone",
+      "tone": "celebratory",
+      "fact_coverage_score": 0.667,
+      "tone_alignment_score": 0.0,
+      "structure_fluency_score": 0.6,
+      "overall_score": 0.422
+    }
+  ],
+  "summary": {
+    "advanced_prompt": {
+      "avg_fact_coverage_score": 1.0,
+      "avg_tone_alignment_score": 0.65,
+      "avg_structure_fluency_score": 0.85,
+      "avg_overall_score": 0.833
+    },
+    "baseline_prompt": {
+      "avg_fact_coverage_score": 0.667,
+      "avg_tone_alignment_score": 0.075,
+      "avg_structure_fluency_score": 0.6,
+      "avg_overall_score": 0.447
+    }
+  }
+}
