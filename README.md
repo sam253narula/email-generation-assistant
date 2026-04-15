@@ -303,17 +303,6 @@ Use **real LLM mode** when you want a live demo or a more realistic production-s
 
 ---
 
-## 🔌 Extending the Project
-
-This repository is self-contained for assessment purposes, but the generator is now modular and can be extended further with:
-
-- different OpenAI-compatible providers
-- prompt version experiments
-- richer evaluation metrics
-- web UI or API layer
-
----
-
 ## 👤 Author
 
 **Samarth Narula**  
