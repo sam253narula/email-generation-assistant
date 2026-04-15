@@ -10,6 +10,49 @@ An AI-powered system that generates professional emails from structured inputs, 
 - Production-ready Architecture
 ---
 
+## 🏗️ Architecture Diagram
+
+The system is designed with a modular pipeline that supports both deterministic evaluation and real LLM-based generation.
+
+![Email Generation Assistant Architecture](./assets/email_generation_architecture_animated.gif)
+
+### 🔍 Flow Overview
+
+1. **Input Layer**
+   - User provides intent, key facts, and tone
+
+2. **Prompt Construction**
+   - Advanced prompt (role-based + few-shot)
+   - Baseline prompt (minimal instruction)
+
+3. **Generation Engine**
+   - Processes prompts via:
+     - Deterministic templates (for reproducibility)
+     - Real LLM (via OpenAI API)
+
+4. **Output Layer**
+   - Generates structured professional emails
+   - Stores results in JSON format
+
+5. **Evaluation Pipeline**
+   - Applies custom metrics:
+     - Fact Coverage
+     - Tone Alignment
+     - Structure & Fluency
+
+6. **Reporting & Comparison**
+   - Compares baseline vs advanced strategies
+   - Outputs CSV/JSON reports and final analysis
+
+---
+
+### ⚙️ Key Design Principles
+
+- **Deterministic Mode** → ensures reproducible evaluation  
+- **LLM Mode** → enables real-world generation  
+- **Modular Architecture** → easy to extend and integrate with APIs  
+- **Evaluation-Driven Design** → focuses on measurable output quality  
+- 
 ## ✨ Overview
 
 This project implements a prompt-engineered Email Generation Assistant that:
